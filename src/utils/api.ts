@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { SearchParams } from '../types/flight';
 
-const API_KEY = 'ce1e8a55aemshc34bbf7a3f83adap19f6c7jsn71061d72b11c';
+const API_KEY = 'import.meta.env.VITE_RAPIDAPI_KEY';
 const API_HOST = 'sky-scrapper.p.rapidapi.com';
 
 export async function searchFlights(params: SearchParams) {
